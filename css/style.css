@@ -4,7 +4,9 @@
     --azul: #3DA5D9;
     --font: #bbbbbb;
     --background: #181818;
+    --background2: #202020;
     --laranja: #EA7317;
+
 }
 
 body {
@@ -22,4 +24,32 @@ header > h1 {
     font-size: 3em;
     color: #FFF;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.288);
+}
+
+.summary, .preamble, .main {
+    width: 60%;
+    float: left;
+    text-align: justify;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+p {
+    padding: 0 10px;
+}
+
+a {
+    color: var(--azul);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--laranja);
 }
