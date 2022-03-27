@@ -33,14 +33,18 @@ header > h1 {
     text-align: justify;
 }
 
-
 h1 {
     margin: 10px;
 }
 
+h3 {
+    margin: 0 auto;
+}
+
 p {
     padding: 0 10px;
-    margin: 20px 0;
+    margin: 20px auto;
+    max-width: 600px;
 }
 
 a {
