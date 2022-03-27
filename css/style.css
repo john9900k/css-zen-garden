@@ -6,7 +6,6 @@
     --background: #181818;
     --background2: #0c0c0c;
     --laranja: #EA7317;
-
 }
 
 body {
@@ -38,7 +37,8 @@ h1 {
 }
 
 h3 {
-    margin: 0 auto;
+    text-align: center;
+    margin: 20px 0 20px 0;
 }
 
 p {
