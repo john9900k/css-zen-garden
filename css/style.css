@@ -4,7 +4,7 @@
     --azul: #3DA5D9;
     --font: #bbbbbb;
     --background: #181818;
-    --background2: #202020;
+    --background2: #0c0c0c;
     --laranja: #EA7317;
 
 }
@@ -17,6 +17,7 @@ body {
 
 header {
     text-align: center;
+    padding: 30px 0;
 }
 
 header > h1 {
@@ -32,18 +33,29 @@ header > h1 {
     text-align: justify;
 }
 
-aside {
-    float: left;
-    width: 30%;
+
+h1 {
+    margin: 10px;
 }
 
 p {
     padding: 0 10px;
+    margin: 20px 0;
 }
 
 a {
     color: var(--azul);
     text-decoration: none;
+}
+aside {
+    float: left;
+    width: 30%;
+    background-color: var(--background2);
+    margin: 0 3%;
+}
+
+aside h3 {
+    margin: 10px
 }
 
 a:hover {
@@ -53,3 +65,4 @@ a:hover {
 a:active {
     color: var(--laranja);
 }
+
