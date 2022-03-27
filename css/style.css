@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 1.1em Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font: 'Bebas Neue', cursive;;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+}
