@@ -72,4 +72,6 @@ a:active {
 
 footer {
     clear: left;
+    padding: 0 10px 0 10px;
+    text-align: center;
 }
