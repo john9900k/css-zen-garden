@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 :root {
     --azul: #3DA5D9;
@@ -11,7 +11,7 @@
     --laranja: #EA7317;
     --font1: 'Bebas Neue', cursive;
     --font2: 'Bitter', serif;
-    --font3: 'Satisfy', cursive;
+    --font3: 'Orbitron', sans-serif;
 }
 
 body {
@@ -62,6 +62,7 @@ p {
     padding: 0 10px;
     margin: 20px auto;
     max-width: 600px;
+    line-height: 1.8em;
 }
 
 a {
@@ -77,7 +78,6 @@ a {
 
 #credit {
     font-family: var(--font3);
-    font-size: 1.5em;
 }
 
 aside {
@@ -103,4 +103,10 @@ footer {
     clear: left;
     padding: 0 10px 0 10px;
     text-align: center;
+}
+
+footer a {
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: var(--font2);
 }
