@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 :root {
     --azul: #3DA5D9;
@@ -8,6 +9,9 @@
     --title: #dddddd;
     --background2: #0c0c0c;
     --laranja: #EA7317;
+    --font1: 'Bebas Neue', cursive;
+    --font2: 'Bitter', serif;
+    --font3: 'Satisfy', cursive;
 }
 
 body {
@@ -22,7 +26,7 @@ header {
 }
 
 header > h1 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: var(--font1);
     font-size: 3em;
     color: #FFF;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.288);
@@ -36,11 +40,22 @@ header > h1 {
 
 h1 {
     margin: 10px;
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 1.8em;
 }
 
 h3 {
+    font-size: 1.5em;
     text-align: center;
     margin: 20px 0 20px 0;
+}
+
+h1, h2, h3 {
+    font-family: var(--font2);
+    color: var(--title);
 }
 
 p {
@@ -53,6 +68,18 @@ a {
     color: var(--azul);
     text-decoration: none;
 }
+
+.participation, .benefits {
+    background-color: var(--background2);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#credit {
+    font-family: var(--font3);
+    font-size: 1.5em;
+}
+
 aside {
     float: left;
     width: 30%;
