@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
 
 :root {
     --azul: #3DA5D9;
     --font: #bbbbbb;
     --background: #181818;
+    --title: #dddddd;
     --background2: #0c0c0c;
     --laranja: #EA7317;
 }
